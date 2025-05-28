@@ -1,7 +1,7 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Container } from '@mui/material';
-import { Home } from '@mui/icons-material';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Header from './components/Header';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Container maxWidth="lg" sx={{ py: 4 }}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
           {/* <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/experience" element={<Experience />} />

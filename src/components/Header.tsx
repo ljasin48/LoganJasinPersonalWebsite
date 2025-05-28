@@ -1,4 +1,4 @@
-import { AppBar, Button, Container, Toolbar, Typography } from '@mui/material';
+import { AppBar, Button, Container, Toolbar } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 
 function Header() {
@@ -25,9 +25,9 @@ function Header() {
               {item.label}
             </Button>
           ))}
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'right' }}>
+          {/* <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'right' }}>
             Logan Jasin
-          </Typography>
+          </Typography> */}
         </Toolbar>
       </Container>
     </AppBar>
