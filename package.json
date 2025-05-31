@@ -25,9 +25,9 @@
   "scripts": {
     "clean": "rm -rf node_modules build",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
-    "release": "npm run clean && npm run format && npm run build",
+    "release": "npm run clean && npm run build",
     "start": "react-scripts start",
-    "build": "npm install && react-scripts build",
+    "build": "npm install && npm run format && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

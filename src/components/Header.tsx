@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 function Header() {
   const navItems = [
     { label: 'Home', path: '/' },
-    { label: 'Experience', path: '/experience' },
-    { label: 'Projects', path: '/projects' },
+    // { label: 'Experience', path: '/experience' },
+    // { label: 'Projects', path: '/projects' },
   ];
 
   return (

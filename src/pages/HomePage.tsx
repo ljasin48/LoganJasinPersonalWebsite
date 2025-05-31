@@ -66,12 +66,12 @@ export function HomePage() {
           <br />
           The Pennsylvania State University - University Park
           <br />
-          GPA 3.59 / 4.0 | August 2013 -  May 2017
+          GPA 3.59 / 4.0 | August 2013 - May 2017
         </Typography>
       </Box>
 
       {/* Experience */}
-      <Box textAlign="center">
+      <Box textAlign="center" mb={4}>
         <Typography variant="h5" component="h2" gutterBottom sx={{ fontWeight: 'medium', color: 'text.primary' }}>
           Experience
         </Typography>
@@ -96,6 +96,46 @@ export function HomePage() {
           <b>American Eagle Outfitters | UI Engineer</b>
           <br />
           July 2017 - July 2018 ({calculateDuration('2017-07-01', '2018-07-01')})
+        </Typography>
+      </Box>
+
+      {/* Certifications */}
+      <Box textAlign="center" mb={4}>
+        <Typography variant="h5" component="h2" gutterBottom sx={{ fontWeight: 'medium', color: 'text.primary' }}>
+          Certifications
+        </Typography>
+        <Typography variant="body2" color="text.secondary" mb={2}>
+          <Link
+            href="https://www.comptia.org/certifications/security"
+            target="_blank"
+            color="primary"
+            sx={{ textDecoration: 'none', '&:hover': { textDecoration: 'underline' } }}
+          >
+            CompTIA Security+
+          </Link>
+          <br />
+          <Link
+            href="https://www.credly.com/org/scaled-agile/badge/certified-safe-5-product-owner-product-manager"
+            target="_blank"
+            color="primary"
+            sx={{ textDecoration: 'none', '&:hover': { textDecoration: 'underline' } }}
+          >
+            SAFe 5 Product Owner / Product Manager (POPM)
+          </Link>
+        </Typography>
+      </Box>
+
+      {/* Certifications */}
+      <Box textAlign="center">
+        <Typography variant="h5" component="h2" gutterBottom sx={{ fontWeight: 'medium', color: 'text.primary' }}>
+          Clearances
+        </Typography>
+        <Typography variant="body2" color="text.secondary" mb={2}>
+          <b>Top Secret / SCI | Department of Defense</b>
+          <br />
+          <b>Q-Clearance | Department of Energy</b>
+          <br />
+          <b>Counter Intelligence (CI) Polygraph</b>
         </Typography>
       </Box>
     </Container>
