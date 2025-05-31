@@ -59,14 +59,14 @@ export function HomePage() {
           <br />
           The Pennsylvania State University - World Campus
           <br />
-          GPA 3.94 / 4.0 | 08/2020 - 08/2022
+          GPA 3.94 / 4.0 | August 2020 - August 2022
         </Typography>
         <Typography variant="body2" color="text.secondary">
           <b>Bachelor of Science in Computer Science</b>
           <br />
           The Pennsylvania State University - University Park
           <br />
-          GPA 3.59 / 4.0 | 08/2013 - 05/2017
+          GPA 3.59 / 4.0 | August 2013 -  May 2017
         </Typography>
       </Box>
 
